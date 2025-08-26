@@ -1,5 +1,6 @@
-/* style.css - External CSS for Geng Alex Akook Portfolio */
+/* Enhanced style.css for Geng Alex Akook Portfolio */
 
+/* Body and typography */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -7,23 +8,30 @@ body {
     line-height: 1.6;
     color: #333;
     background-color: #f4f4f4;
+    scroll-behavior: smooth;
 }
 
+/* Header */
 header {
     background: #004080;
     color: white;
-    padding: 20px 0;
+    padding: 30px 20px;
     text-align: center;
 }
 
-h1 {
-    margin: 0;
+header p {
+    font-size: 1.1rem;
+    margin-top: 5px;
 }
 
+/* Navigation */
 nav {
     background: #0066cc;
-    padding: 10px 0;
+    padding: 12px 0;
     text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 nav a {
@@ -31,29 +39,34 @@ nav a {
     margin: 0 15px;
     text-decoration: none;
     font-weight: bold;
+    transition: 0.3s;
 }
 
 nav a:hover {
     text-decoration: underline;
+    color: #ffcc00;
 }
 
+/* Sections */
 section {
-    padding: 20px;
+    padding: 25px 20px;
     max-width: 900px;
-    margin: auto;
+    margin: 20px auto;
     background-color: white;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
 }
 
 h2 {
     color: #004080;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #004080;
+    padding-bottom: 5px;
 }
 
+/* Projects & skills */
 .project, .skill {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .profile-photo {
@@ -61,30 +74,38 @@ h2 {
     height: 150px;
     border-radius: 50%;
     display: block;
-    margin: 10px auto 20px auto;
+    margin: 15px auto 25px auto;
+    border: 3px solid #004080;
 }
 
 .project-photo {
     width: 100%;
     max-width: 600px;
     display: block;
-    margin: 10px auto 15px auto;
-    border-radius: 8px;
+    margin: 15px auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
 }
 
-footer {
-    background: #004080;
-    color: white;
-    text-align: center;
-    padding: 15px 0;
-    margin-top: 20px;
-}
-
+/* Links */
 a {
     color: #0066cc;
     text-decoration: none;
+    transition: 0.3s;
 }
 
 a:hover {
     text-decoration: underline;
+    color: #004080;
 }
+
+/* Footer */
+footer {
+    background: #004080;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+    font-size: 0.9rem;
+}
+
