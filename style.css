@@ -1,6 +1,6 @@
-/* Portfolio Website Style - Restored Design */
+/* Enhanced style.css for Geng Alex Akook Portfolio */
 
-/* Body */
+/* Body and typography */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -13,29 +13,15 @@ body {
 
 /* Header */
 header {
-    background: #004080; /* Deep blue */
+    background: #004080;
     color: white;
     padding: 30px 20px;
     text-align: center;
 }
 
-header h1 {
-    margin: 0;
-}
-
 header p {
     font-size: 1.1rem;
     margin-top: 5px;
-}
-
-/* Profile Photo */
-.profile-photo {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    display: block;
-    margin: 15px auto 25px auto;
-    border: 3px solid #004080;
 }
 
 /* Navigation */
@@ -78,9 +64,18 @@ h2 {
     padding-bottom: 5px;
 }
 
-/* Projects & Skills */
+/* Projects & skills */
 .project, .skill {
     margin-bottom: 20px;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 15px auto 25px auto;
+    border: 3px solid #004080;
 }
 
 .project-photo {
@@ -104,7 +99,7 @@ a:hover {
     color: #004080;
 }
 
-/* Buttons for CV/Resume/Docs */
+/* Download buttons */
 .download-btn {
     display: inline-block;
     padding: 10px 18px;
@@ -114,6 +109,7 @@ a:hover {
     font-weight: bold;
     margin: 8px 5px;
     transition: 0.3s;
+    text-decoration: none;
 }
 
 .download-btn:hover {
